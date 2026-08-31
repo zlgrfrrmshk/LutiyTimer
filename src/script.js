@@ -15,10 +15,6 @@ function updateTimer() {
     const minutes = Math.floor((gap % hour) / minute);
     const seconds = Math.floor((gap % minute) / second);
 
-    if(hours == 0) {
-        days = days - 1;
-    }
-
     document.getElementById('days').innerText = days;
     document.getElementById('hours').innerText = hours;
     document.getElementById('minutes').innerText = minutes;
