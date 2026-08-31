@@ -1,7 +1,7 @@
 const timer2 = document.getElementById('timer');
 
 function updateTimer() {
-    const countDate = new Date('Sep 01, 2026 23:59:59').getTime();
+    const countDate = new Date('Sep 01, 2026 00:00:00').getTime();
     const now = new Date().getTime();
     const gap = countDate - now; 
 
