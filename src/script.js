@@ -32,7 +32,7 @@ function updateTimer() {
 
     if (gap < 0) {
         clearInterval(timer);
-        document.getElementById('timer').innerText = "усё";
+        document.getElementById('timer').innerText = "пизда";
         
     }
 }
